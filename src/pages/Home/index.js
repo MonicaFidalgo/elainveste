@@ -24,7 +24,6 @@ const Home = () => {
                 src={image}
                 alt="Foguetão"
                 width="100%"
-                height="450px"
                 className="rounded-circle"
               />
               {/* https://storyset.com/*/}
@@ -59,7 +58,6 @@ const Home = () => {
               src={monica}
               alt="Mónica Fidalgo"
               width="100%"
-              height="450px"
               className="rounded-circle"
             />
             {/* https://storyset.com/*/}

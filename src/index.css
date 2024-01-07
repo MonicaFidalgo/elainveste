@@ -194,17 +194,10 @@ ul {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
-.footer-body {
+
+.footer-mail-link {
   display: flex;
   align-items: center;
+  gap: 10px;
   justify-content: center;
-}
-
-.footer-icons {
-  display: flex;
-  gap: 20px;
-}
-
-.blockquote-footer {
-  color: #a588c0 !important;
 }

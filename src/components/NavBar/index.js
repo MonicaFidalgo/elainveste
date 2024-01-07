@@ -21,6 +21,15 @@ const NavBarComponent = () => {
             <Nav.Link as={Link} to="/products">
               Products
             </Nav.Link>
+            <Nav.Link as={Link} to="https://www.tiktok.com/@elainveste.oficial">
+              <i className="fa-brands fa-tiktok"></i>
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="https://www.instagram.com/elainveste.oficial/"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
