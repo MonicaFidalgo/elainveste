@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import image from "../../assets/rocketship.png";
 import monica from "../../assets/monica-fidalgo.png";
+import inflation from "../../assets/inflation-icon.png";
+import planning from "../../assets/planning-icon.png";
+import invest from "../../assets/invest-icon.png";
 
 const Home = () => {
   return (
@@ -32,11 +35,13 @@ const Home = () => {
         </Container>
       </div>
       <div className="bg-2">
-        <Container className="py-100 text-center">
+        <Container className="py-100 ">
           {" "}
-          <Row>
+          <Row className="text-center">
             <Col>
-              <h2 className="heading heading-primary"> About the content</h2>
+              <h2 className="heading heading-primary ">
+                Porque devo começar a investir?
+              </h2>
               <p>
                 {" "}
                 Com o Ela Investe, tenha acesso a dicas valiosas para investir
@@ -46,6 +51,45 @@ const Home = () => {
                 objetivos. Comece hoje mesmo a trilhar seu caminho rumo à
                 independência financeira.
               </p>
+            </Col>
+          </Row>
+          <Row className="pt-4 mt-5">
+            <Col md={4}>
+              <div>
+                <img src={inflation} alt="inflação" />
+                <h4>Para reduzir o impacto da inflação</h4>
+                <p>
+                  Dados históricos apontam para muitos investimentos que
+                  aumentam de valor a uma taxa maior do que a inflação. O poder
+                  de compra do dinheiro mantido em contas bancárias é erodido ao
+                  longo do tempo pela taxa de inflação, que costuma ser mais
+                  alta do que as taxas de juros de contas de poupança.
+                </p>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img src={planning} alt="planeamento" />
+                <h4>Planeamento financeiro e reforma</h4>
+                <p>
+                  Investir pode ajudar no planejamento do futuro, do ponto de
+                  vista financeiro. Pesquisas sugerem que planos de investimento
+                  a longo prazo têm o potencial de atingir suas metas porque
+                  conseguem enfrentar a volatilidade de curto prazo do mercado.
+                </p>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img src={invest} alt="investir" />
+                <h4>Criar uma renda passiva</h4>
+                <p>
+                  Alguns tipos de investimentos geram retornos regulares, como
+                  dividendos de ações. Indivíduos podem optar por reinvestir
+                  esse fluxo de caixa ou usá-lo para complementar seu estilo de
+                  vida atual.
+                </p>
+              </div>
             </Col>
           </Row>
         </Container>

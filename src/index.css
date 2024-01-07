@@ -125,6 +125,7 @@ ul {
 }
 
 .rounded-circle {
+  max-width: 500px;
   border: 8px solid black;
 }
 
