@@ -43,7 +43,6 @@ const Home = () => {
                 Porque devo começar a investir?
               </h2>
               <p>
-                {" "}
                 Com o Ela Investe, tenha acesso a dicas valiosas para investir
                 de forma inteligente e conquistar a liberdade financeira.
                 Aprenda a utilizar as ferramentas e recursos disponíveis, como
@@ -53,7 +52,7 @@ const Home = () => {
               </p>
             </Col>
           </Row>
-          <Row className="pt-4 mt-5">
+          <Row className="mt-5">
             <Col md={4}>
               <div>
                 <img src={inflation} alt="inflação" />
@@ -109,12 +108,19 @@ const Home = () => {
           <Col md={6}>
             <h2>Mónica Fidalgo</h2>
             <p>
-              Monica Conheça Monica, uma investidora experiente que busca a
-              liberdade financeira há 3 anos. Ela sabe que ainda há pouca
+              Olá, eu sou a Mónica! Tenho 35 anos e comecei a investir há 3
+              anos. Tenho o sonho de alcançar a liberdade financeira para me
+              poder reformar mais cedo.
+            </p>
+            <p>
+              Quando comecei a investir, senti que ainda havia e há pouca
               informação sobre como investir em Portugal e qual a melhor
-              estratégia. Seu objetivo é capacitar as pessoas a começar a
-              investir e a conhecer mais sobre o assunto. Junte-se a ela e
-              comece a investir em sua independência financeira!
+              estratégia.
+            </p>
+            <p>
+              O meu objetivo é capacitar as pessoas a começar a investir e a
+              entender mais sobre o assunto. Junta-te a mim nesta jornada e
+              comece a investir na tua independência financeira!
             </p>
           </Col>
         </Row>
@@ -124,17 +130,28 @@ const Home = () => {
           {" "}
           <Row>
             <Col>
-              <h2 className="heading heading-secondary"> Limited time offer</h2>
+              <h2 className="heading heading-secondary">
+                O caminho para a liberdade financeira
+              </h2>
               <p>
-                {" "}
-                Com o Ela Investe, tenha acesso a dicas valiosas para investir
-                de forma inteligente e conquistar a liberdade financeira.
-                Aprenda a utilizar as ferramentas e recursos disponíveis, como
-                ebooks e planilhas, para organizar suas finanças e alcançar seus
-                objetivos. Comece hoje mesmo a trilhar seu caminho rumo à
-                independência financeira.
+                A liberdade financeira significa coisas diferentes para pessoas
+                diferentes. Alguns planeiam alcançar um conforto financeiro
+                suficiente para lidar com emergências de curto prazo ou para
+                satisfazer metas de estilo de vida, enquanto outros sonham com a
+                reforma antecipada e um futuro sem complicações. Com um
+                planeamento cuidadoso, é possível encontrar uma resposta para a
+                pergunta: como alcançar a independência financeira?
               </p>
-              <button>Buy Now</button>
+              <p>
+                O FIRE (Financial Independence, Retire Early) é um movimento que
+                busca atingir a independência financeira e reforma antecipada. O
+                objetivo do FIRE é acumular ativos financeiros suficientes para
+                ter a opção de se aposentar muito antes da idade convencional de
+                aposentadoria.
+              </p>
+              <a href="/" className="button button-primary">
+                Como calculo o meu FIRE?
+              </a>
             </Col>
           </Row>
         </Container>
@@ -143,7 +160,8 @@ const Home = () => {
         {" "}
         <Row>
           <h2 className="heading heading-primary">Produtos para ti</h2>
-          <Col>
+          <p>... Brevemente✨</p>
+          {/* <Col>
             <div className="card">
               <img className="card-img-top" src="..." alt="Card  cap" />
               <div className="card-body">
@@ -151,7 +169,7 @@ const Home = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a class="button button-primary" href="/products">
+                <a class="button button-secondary" href="/products">
                   {" "}
                   View Project{" "}
                 </a>
@@ -167,16 +185,16 @@ const Home = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="/products" class="button button-primary">
+                <a href="/products" class="button button-secondary">
                   {" "}
                   View Project{" "}
                 </a>
               </div>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
-
+      {/* 
       <div className="bg-3">
         <Container className="py-100 text-center">
           {" "}
@@ -190,7 +208,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </main>
   );
 };

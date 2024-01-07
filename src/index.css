@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
   --color-primary: #df7db0;
   --color-secondary: #fff7e8;
+  --color-tertiary: #a034a3;
   --bs-nav-link-font-size: 18px;
   --bs-nav-link-color: black;
 }
@@ -11,12 +12,13 @@
 /* RESET */
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
 }
 
 h1,
 h2 {
-  font-family: "Georgia", sans-serif;
+  font-family: "Merriweather", sans-serif;
 }
 
 a {
@@ -149,13 +151,12 @@ ul {
 }
 
 .button-primary:hover {
-  background-color: #e0a800;
-  border-color: #d39e00;
+  background-color: transparent;
 }
 
 .button-secondary {
-  color: var(--color-primary) !important;
-  background-color: white;
+  color: white !important;
+  background-color: var(--color-tertiary);
   border: 1px solid var(--color-primary);
   border-radius: 8px;
 }
