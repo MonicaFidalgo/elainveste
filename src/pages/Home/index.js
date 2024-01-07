@@ -1,37 +1,43 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import image from "../../assets/invest-woman.svg";
+import image from "../../assets/rocketship.png";
+import monica from "../../assets/monica-fidalgo.png";
 
 const Home = () => {
   return (
     <main>
       <div className="bg-1">
-        <Container>
+        <Container className="py-100">
           <Row>
             <Col md={6}>
-              <h1 className="mb-3">Ela Investe</h1>
-              <h2>conquiste a liberdade financeira com dicas valiosas</h2>
+              <h1 className="title mb-3">Ela Investe</h1>
+              <h2>Conquista a liberdade financeira com dicas valiosas</h2>
               <p>
-                Aprenda a investir de forma inteligente e alcance a tão sonhada
-                independência financeira. Descubra as ferramentas e recursos que
-                vão te ajudar a organizar suas finanças e alcançar seus
+                Aprende a investir de forma inteligente e alcança a tão sonhada
+                independência financeira. Descubre as ferramentas e recursos que
+                vão te ajudar a organizar tuas finanças e alcançar os teus
                 objetivos.
               </p>
             </Col>
             <Col md={6}>
-              <img src={image} alt="" />
+              <img
+                src={image}
+                alt="Foguetão"
+                width="100%"
+                height="450px"
+                className="rounded-circle"
+              />
               {/* https://storyset.com/*/}
             </Col>
           </Row>
         </Container>
       </div>
       <div className="bg-2">
-        <Container>
+        <Container className="py-100 text-center">
           {" "}
           <Row>
             <Col>
-              <h2> About the content</h2>
-              <hr />
+              <h2 className="heading heading-primary"> About the content</h2>
               <p>
                 {" "}
                 Com o Ela Investe, tenha acesso a dicas valiosas para investir
@@ -45,11 +51,17 @@ const Home = () => {
           </Row>
         </Container>
       </div>
-      <Container>
+      <Container className="py-100 ">
         <Row>
-          <h2 className="mb-3">Conhece a cara por trás do projecto</h2>
+          <h2 className="heading heading-primary text-center">Quem sou</h2>
           <Col md={6}>
-            <img src={image} alt="" />
+            <img
+              src={monica}
+              alt="Mónica Fidalgo"
+              width="100%"
+              height="450px"
+              className="rounded-circle"
+            />
             {/* https://storyset.com/*/}
           </Col>
           <Col md={6}>
@@ -66,11 +78,11 @@ const Home = () => {
         </Row>
       </Container>
       <div className="bg-3">
-        <Container>
+        <Container className="py-100">
           {" "}
           <Row>
             <Col>
-              <h2> Limited time offer</h2>
+              <h2 className="heading heading-secondary"> Limited time offer</h2>
               <p>
                 {" "}
                 Com o Ela Investe, tenha acesso a dicas valiosas para investir
@@ -85,35 +97,50 @@ const Home = () => {
           </Row>
         </Container>
       </div>
-      <Container>
+      <Container className="py-100">
         {" "}
         <Row>
+          <h2 className="heading heading-primary">Produtos para ti</h2>
           <Col>
             <div className="card">
-              <p>📈</p>
-              <hr />
-              <h4>Subtitulo</h4>
-              <p>conteudo texto</p>
+              <img className="card-img-top" src="..." alt="Card  cap" />
+              <div className="card-body">
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a class="button button-primary" href="/products">
+                  {" "}
+                  View Project{" "}
+                </a>
+              </div>
             </div>
           </Col>
           <Col>
             {" "}
             <div className="card">
-              <p>📈</p>
-              <hr />
-              <h4>Subtitulo</h4>
-              <p>conteudo texto</p>
+              <img className="card-img-top" src="..." alt="Card cap" />
+              <div className="card-body">
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="/products" class="button button-primary">
+                  {" "}
+                  View Project{" "}
+                </a>
+              </div>
             </div>
           </Col>
         </Row>
       </Container>
 
       <div className="bg-3">
-        <Container>
+        <Container className="py-100 text-center">
           {" "}
           <Row>
             <Col>
-              <h2> Limited time offer</h2>
+              <h2 className="heading heading-secondary"> Limited time offer</h2>
               <div className="card-buy">
                 <h1>19.99</h1>
                 <button>Buy Now</button>

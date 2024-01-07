@@ -8,6 +8,7 @@ import {
 import NavBarComponent from "./components/NavBar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/products" exact element={<Products />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
