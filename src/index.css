@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
   --color-primary: #df7db0;
@@ -40,7 +40,7 @@ ul {
 
 .logo {
   width: 100%;
-  max-width: 68px;
+  max-width: 50px;
 }
 
 .py-100 {
@@ -202,4 +202,8 @@ ul {
   align-items: center;
   gap: 10px;
   justify-content: center;
+}
+
+.highlighted {
+  font-weight: 600;
 }

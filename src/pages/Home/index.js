@@ -5,6 +5,7 @@ import monica from "../../assets/monica-fidalgo.png";
 import inflation from "../../assets/inflation.svg";
 import planning from "../../assets/calendar.svg";
 import invest from "../../assets/income.svg";
+import calculadorafire from "../../assets/elainveste-firenumber.png";
 
 const Home = () => {
   return (
@@ -113,7 +114,7 @@ const Home = () => {
         </Row>
       </Container>
       <div className="bg-3">
-        <Container className="py-100">
+        <Container className="py-100 text-center">
           {" "}
           <Row>
             <Col>
@@ -130,11 +131,19 @@ const Home = () => {
                 pergunta: como alcançar a independência financeira?
               </p>
               <p>
-                O FIRE (Financial Independence, Retire Early) é um movimento que
-                busca atingir a independência financeira e reforma antecipada. O
-                objetivo do FIRE é acumular ativos financeiros suficientes para
-                ter a opção de se aposentar muito antes da idade convencional de
+                O <span className="highlighted">movimento FIRE</span> (Financial
+                Independence, Retire Early) é um movimento que busca atingir a
+                independência financeira e reforma antecipada. O objetivo do
+                FIRE é acumular ativos financeiros suficientes para ter a opção
+                de se aposentar muito antes da idade convencional de
                 aposentadoria.
+              </p>
+              <p>
+                O <span className="highlighted">valor FIRE</span> refere-se ao
+                valor de ativos financeiros necessário para alcançar a
+                independência financeira. Este valor é calculado com base nas
+                despesas anuais da pessoa, na taxa de retorno esperada dos
+                investimentos e na taxa de inflação.
               </p>
               <a href="/" className="button button-primary">
                 Como calculo o meu FIRE?
@@ -146,31 +155,40 @@ const Home = () => {
       <Container className="py-100">
         {" "}
         <Row>
-          <h2 className="heading heading-primary">Produtos para ti</h2>
-          <p>... Brevemente✨</p>
-          {/* <Col>
+          <h2 className="heading heading-primary">Ofertas para ti</h2>
+          <Col md={4} className="offset-md-2">
             <div className="card">
-              <img className="card-img-top" src="..." alt="Card  cap" />
+              <img
+                className="card-img-top"
+                src={calculadorafire}
+                alt="Card  cap"
+              />
               <div className="card-body">
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Calcula o teu FIRE number e o valor que tens de investir para
+                  alcançares a tua liberdade financeira
                 </p>
-                <a class="button button-secondary" href="/products">
-                  {" "}
-                  View Project{" "}
+                <a
+                  class="button button-secondary"
+                  href="https://elainveste.gumroad.com/l/calculadora-fire"
+                >
+                  Eu quero
                 </a>
               </div>
             </div>
           </Col>
-          <Col>
+          <Col md={4}>
             {" "}
             <div className="card">
-              <img className="card-img-top" src="..." alt="Card cap" />
+              <img
+                className="card-img-top"
+                src={calculadorafire}
+                alt="Card cap"
+              />
               <div className="card-body">
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Calcula o teu FIRE number e o valor que tens de investir para
+                  alcançares a tua liberdade financeira
                 </p>
                 <a href="/products" class="button button-secondary">
                   {" "}
@@ -178,7 +196,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-          </Col> */}
+          </Col>
         </Row>
       </Container>
       {/* 
