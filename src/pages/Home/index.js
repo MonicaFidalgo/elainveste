@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import image from "../../assets/rocketship.png";
+import image from "../../assets/she-invests.svg";
 import monica from "../../assets/monica-fidalgo.png";
-import inflation from "../../assets/inflation-icon.png";
-import planning from "../../assets/planning-icon.png";
-import invest from "../../assets/invest-icon.png";
+import inflation from "../../assets/inflation.svg";
+import planning from "../../assets/calendar.svg";
+import invest from "../../assets/income.svg";
 
 const Home = () => {
   return (
@@ -23,12 +23,7 @@ const Home = () => {
               </p>
             </Col>
             <Col md={6}>
-              <img
-                src={image}
-                alt="Foguetão"
-                width="100%"
-                className="rounded-circle"
-              />
+              <img src={image} alt="Foguetão" width="100%" />
               {/* https://storyset.com/*/}
             </Col>
           </Row>
@@ -42,14 +37,6 @@ const Home = () => {
               <h2 className="heading heading-primary ">
                 Porque devo começar a investir?
               </h2>
-              <p>
-                Com o Ela Investe, tenha acesso a dicas valiosas para investir
-                de forma inteligente e conquistar a liberdade financeira.
-                Aprenda a utilizar as ferramentas e recursos disponíveis, como
-                ebooks e planilhas, para organizar suas finanças e alcançar seus
-                objetivos. Comece hoje mesmo a trilhar seu caminho rumo à
-                independência financeira.
-              </p>
             </Col>
           </Row>
           <Row className="mt-5">

@@ -3,7 +3,7 @@
 
 :root {
   --color-primary: #df7db0;
-  --color-secondary: #fff7e8;
+  --color-secondary: #fdfbf6;
   --color-tertiary: #a034a3;
   --bs-nav-link-font-size: 18px;
   --bs-nav-link-color: black;
@@ -128,7 +128,7 @@ ul {
 
 .rounded-circle {
   max-width: 500px;
-  border: 8px solid black;
+  border: 4px solid black;
 }
 
 /* BUTTONS */

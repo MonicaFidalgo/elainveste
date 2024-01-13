@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import logo from "../../elainvestelogotipo.png";
+import logo from "../../logo-elainveste.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
