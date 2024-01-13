@@ -207,3 +207,12 @@ ul {
 .highlighted {
   font-weight: 600;
 }
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-wrapper img {
+  max-width: 280px;
+}

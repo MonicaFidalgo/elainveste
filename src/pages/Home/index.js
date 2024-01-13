@@ -13,7 +13,7 @@ const Home = () => {
       <div className="bg-1">
         <Container className="py-100">
           <Row>
-            <Col md={6}>
+            <Col md={5}>
               <h1 className="title mb-3">Ela Investe</h1>
               <h2>Conquista a liberdade financeira com dicas valiosas</h2>
               <p>
@@ -23,7 +23,7 @@ const Home = () => {
                 objetivos.
               </p>
             </Col>
-            <Col md={6}>
+            <Col md={7}>
               <img src={image} alt="Foguetão" width="100%" />
               {/* https://storyset.com/*/}
             </Col>
@@ -43,7 +43,9 @@ const Home = () => {
           <Row className="mt-5">
             <Col md={4}>
               <div>
-                <img src={inflation} alt="inflação" />
+                <div className="icon-wrapper">
+                  <img src={inflation} alt="inflação" />
+                </div>
                 <h4>Para reduzir o impacto da inflação</h4>
                 <p>
                   Dados históricos apontam para muitos investimentos que
@@ -56,7 +58,9 @@ const Home = () => {
             </Col>
             <Col md={4}>
               <div>
-                <img src={planning} alt="planeamento" />
+                <div className="icon-wrapper">
+                  <img src={planning} alt="planeamento" />
+                </div>
                 <h4>Planeamento financeiro e reforma</h4>
                 <p>
                   Investir pode ajudar no planejamento do futuro, do ponto de
@@ -68,7 +72,9 @@ const Home = () => {
             </Col>
             <Col md={4}>
               <div>
-                <img src={invest} alt="investir" />
+                <div className="icon-wrapper">
+                  <img src={invest} alt="investir" />
+                </div>
                 <h4>Criar uma renda passiva</h4>
                 <p>
                   Alguns tipos de investimentos geram retornos regulares, como
