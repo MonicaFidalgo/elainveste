@@ -121,7 +121,6 @@ const Home = () => {
       </Container>
       <div className="bg-3">
         <Container className="py-100 text-center">
-          {" "}
           <Row>
             <Col>
               <h2 className="heading heading-secondary">
@@ -177,6 +176,7 @@ const Home = () => {
                 <a
                   class="button button-secondary"
                   href="https://elainveste.gumroad.com/l/calculadora-fire"
+                  target="_blank"
                 >
                   Eu quero
                 </a>
@@ -196,9 +196,12 @@ const Home = () => {
                   Calcula o teu FIRE number e o valor que tens de investir para
                   alcançares a tua liberdade financeira
                 </p>
-                <a href="/products" class="button button-secondary">
-                  {" "}
-                  View Project{" "}
+                <a
+                  href="/products"
+                  class="button button-secondary"
+                  target="_blank"
+                >
+                  Eu quero
                 </a>
               </div>
             </div>
