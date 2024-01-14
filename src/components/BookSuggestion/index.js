@@ -17,7 +17,12 @@ const BookSuggestion = ({
       <h4>de {subtitle}</h4>
       <StarRating rating={rating} />
       <p className="mt-2">{description}</p>
-      <a class="button button-secondary" href={url} target="_blank">
+      <a
+        className="button button-secondary"
+        href={url}
+        target="_blank"
+        rel="noreferrer"
+      >
         Encomendar
       </a>
     </div>

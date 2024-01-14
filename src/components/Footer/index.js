@@ -18,6 +18,7 @@ const Footer = () => {
             href="mailto:elainveste.tuinvestes@gmail.com"
             style={{ color: "white" }}
             className="footer-mail-link"
+            rel="noreferrer"
           >
             <i class="fa fa-envelope" aria-hidden="true"></i>{" "}
             <h3>elainveste.tuinvestes@gmail.com</h3>

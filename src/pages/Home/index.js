@@ -179,9 +179,10 @@ const Home = () => {
                   alcançares a tua liberdade financeira
                 </p>
                 <a
-                  class="button button-secondary"
+                  className="button button-secondary"
                   href="https://elainveste.gumroad.com/l/calculadora-fire"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Eu quero
                 </a>
@@ -204,8 +205,9 @@ const Home = () => {
                 </p>
                 <a
                   href="https://elainveste.gumroad.com/l/orcamento-mensal"
-                  class="button button-secondary"
+                  className="button button-secondary"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Eu quero
                 </a>

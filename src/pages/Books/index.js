@@ -32,9 +32,10 @@ const Books = () => {
                 dinheiro e adotando os hábitos das pessoas bem-sucedidas.
               </p>
               <a
-                class="button button-secondary"
+                className="button button-secondary"
                 href="https://www.wook.pt/livro/segredos-da-mente-milionaria-t-harv-eker/15767734"
                 target="_blank"
+                rel="noreferrer"
               >
                 Encomendar
               </a>
