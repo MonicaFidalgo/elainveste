@@ -243,3 +243,7 @@ ul {
   font-weight: 300;
   font-size: 18px;
 }
+
+.card-text {
+  min-height: 78px;
+}

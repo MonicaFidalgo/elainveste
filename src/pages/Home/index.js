@@ -6,6 +6,7 @@ import inflation from "../../assets/inflation.svg";
 import planning from "../../assets/calendar.svg";
 import invest from "../../assets/income.svg";
 import calculadorafire from "../../assets/elainveste-firenumber.png";
+import orçamentomensal from "../../assets/el-investe-orcamento-mensal.png";
 
 const Home = () => {
   return (
@@ -18,8 +19,8 @@ const Home = () => {
               <h2>Conquista a liberdade financeira com dicas valiosas</h2>
               <p>
                 Aprende a investir de forma inteligente e alcança a tão sonhada
-                independência financeira. Descubre as ferramentas e recursos que
-                vão te ajudar a organizar tuas finanças e alcançar os teus
+                independência financeira. Descobre as ferramentas e recursos que
+                te vão ajudar a organizar tuas finanças e alcançar os teus
                 objetivos.
               </p>
             </Col>
@@ -48,11 +49,11 @@ const Home = () => {
                 </div>
                 <h4>Para reduzir o impacto da inflação</h4>
                 <p>
-                  Dados históricos apontam para muitos investimentos que
-                  aumentam de valor a uma taxa maior do que a inflação. O poder
-                  de compra do dinheiro mantido em contas bancárias é erodido ao
-                  longo do tempo pela taxa de inflação, que costuma ser mais
-                  alta do que as taxas de juros de contas de poupança.
+                  Dados históricos mostram que diversos investimentos tendem a
+                  crescer mais rápido do que a inflação. O poder de compra do
+                  dinheiro em contas bancárias é progressivamente reduzido pela
+                  inflação, geralmente superior às taxas de juros de contas
+                  poupança.
                 </p>
               </div>
             </Col>
@@ -63,10 +64,11 @@ const Home = () => {
                 </div>
                 <h4>Planeamento financeiro e reforma</h4>
                 <p>
-                  Investir pode ajudar no planejamento do futuro, do ponto de
-                  vista financeiro. Pesquisas sugerem que planos de investimento
-                  a longo prazo têm o potencial de atingir suas metas porque
-                  conseguem enfrentar a volatilidade de curto prazo do mercado.
+                  Investir é uma ferramenta valiosa no planejamento financeiro
+                  futuro. Estudos indicam adotar uma estratégia de investimento
+                  a longo prazo, é possível lidar de maneira mais eficaz com as
+                  flutuações e instabilidades momentâneas que ocorrem no mercado
+                  financeiro a curto prazo.
                 </p>
               </div>
             </Col>
@@ -78,9 +80,9 @@ const Home = () => {
                 <h4>Criar uma renda passiva</h4>
                 <p>
                   Alguns tipos de investimentos geram retornos regulares, como
-                  dividendos de ações. Indivíduos podem optar por reinvestir
-                  esse fluxo de caixa ou usá-lo para complementar seu estilo de
-                  vida atual.
+                  dividendos de ações. Os investidores podem optar por
+                  reinvestir esses ganhos ou utilizá-los para complementar seu
+                  estilo de vida atual.
                 </p>
               </div>
             </Col>
@@ -107,14 +109,14 @@ const Home = () => {
               poder reformar mais cedo.
             </p>
             <p>
-              Quando comecei a investir, senti que ainda havia e há pouca
+              Quando comecei a investir, senti que ainda havia e existe pouca
               informação sobre como investir em Portugal e qual a melhor
               estratégia.
             </p>
             <p>
-              O meu objetivo é capacitar as pessoas a começar a investir e a
+              O meu objetivo é capacitar-te para a começares a investir e a
               entender mais sobre o assunto. Junta-te a mim nesta jornada e
-              comece a investir na tua independência financeira!
+              começa a investir em ti na tua independência financeira!
             </p>
           </Col>
         </Row>
@@ -123,10 +125,12 @@ const Home = () => {
         <Container className="py-100 text-center">
           <Row>
             <Col>
-              <h2 className="heading heading-secondary">
-                O caminho para a liberdade financeira
+              <h2 className="heading">
+                "As pessoas não decidem o seu futuro, decidem os seus hábitos, e
+                os seus hábitos decidem o seu futuro."
               </h2>
-              <p>
+              <blockquote>― F. M. Alexander</blockquote>
+              {/* <p>
                 A liberdade financeira significa coisas diferentes para pessoas
                 diferentes. Alguns planeiam alcançar um conforto financeiro
                 suficiente para lidar com emergências de curto prazo ou para
@@ -152,7 +156,7 @@ const Home = () => {
               </p>
               <a href="/" className="button button-primary">
                 Como calculo o meu FIRE?
-              </a>
+              </a> */}
             </Col>
           </Row>
         </Container>
@@ -166,7 +170,8 @@ const Home = () => {
               <img
                 className="card-img-top"
                 src={calculadorafire}
-                alt="Card  cap"
+                alt="Produto 
+                Calculadora Fire Ela Investe"
               />
               <div className="card-body">
                 <p className="card-text">
@@ -188,16 +193,17 @@ const Home = () => {
             <div className="card">
               <img
                 className="card-img-top"
-                src={calculadorafire}
-                alt="Card cap"
+                src={orçamentomensal}
+                alt="Produto 
+                Orçamento Mensal Ela Investe"
               />
               <div className="card-body">
                 <p className="card-text">
-                  Calcula o teu FIRE number e o valor que tens de investir para
-                  alcançares a tua liberdade financeira
+                  Planeia as tuas contas e vê como podes poupar com o Orçamento
+                  Mensal
                 </p>
                 <a
-                  href="/products"
+                  href="https://elainveste.gumroad.com/l/orcamento-mensal"
                   class="button button-secondary"
                   target="_blank"
                 >
