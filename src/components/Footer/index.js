@@ -20,7 +20,7 @@ const Footer = () => {
             className="footer-mail-link"
             rel="noreferrer"
           >
-            <i class="fa fa-envelope" aria-hidden="true"></i>{" "}
+            <i className="fa fa-envelope" aria-hidden="true"></i>{" "}
             <h3>elainveste.tuinvestes@gmail.com</h3>
           </a>
         </Col>

@@ -24,6 +24,9 @@ const NavBarComponent = () => {
             <Nav.Link as={Link} to="/livros">
               Livros
             </Nav.Link>
+            <Nav.Link as={Link} to="/blog">
+              Blog
+            </Nav.Link>
             <Nav.Link as={Link} to="https://www.tiktok.com/@elainveste.oficial">
               <i className="fa-brands fa-tiktok"></i>
             </Nav.Link>

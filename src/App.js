@@ -9,7 +9,9 @@ import NavBarComponent from "./components/NavBar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Books from "./pages/Books";
+import Blog from "./pages/Blog";
 import Footer from "./components/Footer";
+import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/produtos" exact element={<Products />} />
           <Route path="/livros" exact element={<Books />} />
+          <Route path="/blog" exact element={<Blog />} />
+          <Route path="/blog/:state" element={<BlogPost />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />

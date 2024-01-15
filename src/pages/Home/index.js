@@ -124,11 +124,11 @@ const Home = () => {
       <div className="bg-3">
         <Container className="py-100 text-center">
           <Row>
-            <Col>
-              <h2 className="heading">
-                "As pessoas não decidem o seu futuro, decidem os seus hábitos, e
+            <Col md={10} className="offset-md-1">
+              <h3>
+                "As pessoas não decidem o seu futuro, decidem os seus hábitos e
                 os seus hábitos decidem o seu futuro."
-              </h2>
+              </h3>
               <blockquote>― F. M. Alexander</blockquote>
               {/* <p>
                 A liberdade financeira significa coisas diferentes para pessoas
