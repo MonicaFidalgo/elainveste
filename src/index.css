@@ -70,6 +70,7 @@ ul {
   position: absolute;
   width: 100%;
   background-color: white;
+  z-index: 1030;
 }
 
 .navbar-component .navbar-toggler:focus {
@@ -246,4 +247,8 @@ ul {
 
 .card-text {
   min-height: 78px;
+}
+
+.pt-sm-150 {
+  padding-top: 150px;
 }

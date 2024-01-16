@@ -33,7 +33,7 @@ const Books = () => {
               </p>
               <a
                 className="button button-secondary"
-                href="https://www.wook.pt/livro/segredos-da-mente-milionaria-t-harv-eker/15767734"
+                href="https://www.wook.pt/livro/segredos-da-mente-milionaria-t-harv-eker/15767734?a_aid=659ad6746d1c7"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,7 +57,7 @@ const Books = () => {
               description="Aprenda a investir os seus recursos com propósito e confiança."
               image={indepedenciafinanceira}
               alt="Livro O Caminho Simples para a Independência Financeira"
-              url="https://www.wook.pt/livro/o-caminho-simples-para-a-independencia-financeira-jl-collins/27406292"
+              url="https://www.wook.pt/livro/o-caminho-simples-para-a-independencia-financeira-jl-collins/27406292?a_aid=659ad6746d1c7"
               rating={5}
             />
           </Col>
@@ -67,7 +67,7 @@ const Books = () => {
               subtitle="Vicki Robin e Joe Dominguez"
               description="9 passos para transformar a sua relação com o dinheiro e atingir a independência financeira"
               image={dinheiroouavida}
-              url="https://www.wook.pt/livro/o-dinheiro-ou-a-vida-vicki-robin/24104272"
+              url="https://www.wook.pt/livro/o-dinheiro-ou-a-vida-vicki-robin/24104272?a_aid=659ad6746d1c7"
               rating={5}
             />
           </Col>

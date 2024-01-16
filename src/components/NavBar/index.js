@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import logo from "../../logo-elainveste.png";
@@ -6,25 +6,33 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const NavBarComponent = () => {
+  const [expanded, setExpanded] = useState(false);
+
   return (
-    <Navbar expand="lg" className="navbar-component">
+    <Navbar expanded={expanded} expand="lg" className="navbar-component">
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img src={logo} className="logo" alt="brand" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => {
+            setExpanded(expanded ? false : "expanded");
+          }}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">
-              Home
-            </Nav.Link>
-            <Nav.Link as={Link} to="/produtos">
+            <Nav.Link
+              as={Link}
+              to="/produtos"
+              onClick={() => setExpanded(false)}
+            >
               Produtos
             </Nav.Link>
-            <Nav.Link as={Link} to="/livros">
+            <Nav.Link as={Link} to="/livros" onClick={() => setExpanded(false)}>
               Livros
             </Nav.Link>
-            <Nav.Link as={Link} to="/blog">
+            <Nav.Link as={Link} to="/blog" onClick={() => setExpanded(false)}>
               Blog
             </Nav.Link>
             <Nav.Link as={Link} to="https://www.tiktok.com/@elainveste.oficial">

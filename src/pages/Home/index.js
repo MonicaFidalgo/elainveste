@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <main>
       <div className="bg-1">
-        <Container className="py-100">
+        <Container className="py-100 pt-sm-150">
           <Row>
-            <Col md={5}>
+            <Col lg={5}>
               <h1 className="title mb-3">Ela Investe</h1>
               <h2>Conquista a liberdade financeira com dicas valiosas</h2>
               <p>
@@ -24,7 +24,7 @@ const Home = () => {
                 objetivos.
               </p>
             </Col>
-            <Col md={7}>
+            <Col lg={7}>
               <img src={image} alt="Foguetão" width="100%" />
               {/* https://storyset.com/*/}
             </Col>
@@ -42,7 +42,7 @@ const Home = () => {
             </Col>
           </Row>
           <Row className="mt-5">
-            <Col md={4}>
+            <Col lg={4}>
               <div>
                 <div className="icon-wrapper">
                   <img src={inflation} alt="inflação" />
@@ -57,7 +57,7 @@ const Home = () => {
                 </p>
               </div>
             </Col>
-            <Col md={4}>
+            <Col lg={4}>
               <div>
                 <div className="icon-wrapper">
                   <img src={planning} alt="planeamento" />
@@ -72,7 +72,7 @@ const Home = () => {
                 </p>
               </div>
             </Col>
-            <Col md={4}>
+            <Col lg={4}>
               <div>
                 <div className="icon-wrapper">
                   <img src={invest} alt="investir" />
