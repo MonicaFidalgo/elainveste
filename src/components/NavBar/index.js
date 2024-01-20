@@ -11,7 +11,13 @@ const NavBarComponent = () => {
   return (
     <Navbar expanded={expanded} expand="lg" className="navbar-component">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          onClick={() => {
+            setExpanded(expanded ? false : "expanded");
+          }}
+        >
           <img src={logo} className="logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle

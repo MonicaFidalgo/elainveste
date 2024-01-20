@@ -30,13 +30,46 @@ ul {
   padding: 0;
   margin: 0;
 }
-/* .bg-1 {
-  background-color: #f5f4ec;
+.bg-1 {
+  background-image: url(./assets/background.svg);
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 
-.bg-2 {
-  background-color: #e5e3d8;
-} */
+@media (min-width: 992px) {
+  .bg-1 {
+    background-position: bottom right -200px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bg-1 {
+    background-position: bottom right -100px;
+  }
+}
+
+.wave-double {
+  background-image: url(./assets/wave-double.svg);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.quote-card {
+  background-color: #f7f2f2;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin-top: 50px;
+}
+
+.quote-card blockquote {
+  margin: 0;
+}
 
 .logo {
   width: 100%;
@@ -50,20 +83,6 @@ ul {
 
 .bg-3 {
   background-color: #df7db0;
-}
-
-.card-buy {
-  background-color: #fff7e8;
-  max-width: 800px;
-  height: 600px;
-  border-radius: 79% / 100%;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  text-align: center;
-  margin: 0 auto;
-}
-.gradient {
-  background: linear-gradient(180deg, #fff7e8 0, #fdedee);
 }
 
 .navbar-component {
@@ -135,10 +154,11 @@ ul {
 /* BUTTONS */
 
 .button {
+  text-align: center;
   display: inline-block;
   font-family: "Poppins";
   font-weight: 500;
-  padding: 7px 20px;
+  padding: 15px 20px;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   transition: 0.3s;
   cursor: pointer;
@@ -170,7 +190,7 @@ ul {
 
 /* FOOTER */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #552473;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -181,7 +201,7 @@ ul {
   text-align: center !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .footer-copywright {
     text-align: center !important;
   }
@@ -224,20 +244,33 @@ ul {
 
 /* BOOKS */
 
+.book-favorite {
+  display: flex;
+  gap: 40px;
+}
+
 .book-favorite img {
   max-width: 400px;
+  flex: 2;
+}
+
+@media (max-width: 992px) {
+  .book-favorite {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .book-suggestion img {
   max-width: 300px;
-  max-height: 300px;
   object-fit: contain;
 }
 
 .book-suggestion {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .book-suggestion h4 {
@@ -245,10 +278,63 @@ ul {
   font-size: 18px;
 }
 
+@media (min-width: 992px) {
+  .book-suggestion {
+    align-items: baseline;
+  }
+  .book-suggestion img {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .book-suggestion h3 {
+    text-align: center;
+  }
+}
+
+.card-buy {
+  background-color: #fff7e8;
+  max-width: 800px;
+  height: 600px;
+  border-radius: 79% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .card-text {
   min-height: 78px;
 }
 
+@media (max-width: 992px) {
+  .card {
+    margin-bottom: 50px;
+  }
+
+  .card .button {
+    width: 100%;
+  }
+}
+
 .pt-sm-150 {
   padding-top: 150px;
+}
+
+.blog-link {
+  display: flex;
+  color: black;
+  border-radius: 10px;
+  background-color: #ff90e7;
+  padding: 20px;
+}
+
+.blog-link:hover {
+  transform: translate(-0.25rem, -0.25rem);
+  box-shadow: 0.25rem 0.25rem 0rem rgb(250, 114, 104);
+}
+
+.blog-link p {
+  margin: 0;
 }

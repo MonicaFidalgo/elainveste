@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        <Col lg="4" className="footer-copywright">
           <h3>Developed by Mónica Fidalgo</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col lg="4" className="footer-copywright">
           <h3>Copyright © {year} Mónica Fidalgo</h3>
         </Col>
-        <Col md="4">
+        <Col lg="4">
           <a
             href="mailto:elainveste.tuinvestes@gmail.com"
             style={{ color: "white" }}

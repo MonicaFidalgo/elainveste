@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import image from "../../assets/she-invests.svg";
 import monica from "../../assets/monica-fidalgo.png";
 import inflation from "../../assets/inflation.svg";
 import planning from "../../assets/calendar.svg";
@@ -24,10 +23,7 @@ const Home = () => {
                 objetivos.
               </p>
             </Col>
-            <Col lg={7}>
-              <img src={image} alt="Foguetão" width="100%" />
-              {/* https://storyset.com/*/}
-            </Col>
+            <Col lg={7}>{/* https://storyset.com/*/}</Col>
           </Row>
         </Container>
       </div>
@@ -92,7 +88,7 @@ const Home = () => {
       <Container className="py-100 ">
         <Row>
           <h2 className="heading heading-primary text-center">Quem sou</h2>
-          <Col md={6}>
+          <Col lg={6} className="text-center mb-4">
             <img
               src={monica}
               alt="Mónica Fidalgo"
@@ -101,7 +97,7 @@ const Home = () => {
             />
             {/* https://storyset.com/*/}
           </Col>
-          <Col md={6}>
+          <Col lg={6}>
             <h2>Mónica Fidalgo</h2>
             <p>
               Olá, eu sou a Mónica! Tenho 35 anos e comecei a investir há 3
@@ -121,15 +117,18 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <div className="bg-3">
+      <div className="wave-double">
         <Container className="py-100 text-center">
           <Row>
             <Col md={10} className="offset-md-1">
-              <h3>
-                "As pessoas não decidem o seu futuro, decidem os seus hábitos e
-                os seus hábitos decidem o seu futuro."
-              </h3>
-              <blockquote>― F. M. Alexander</blockquote>
+              <div className="quote-card">
+                <h3>
+                  "As pessoas não decidem o seu futuro, decidem os seus hábitos
+                  e os seus hábitos decidem o seu futuro."
+                </h3>
+                <blockquote>― F. M. Alexander</blockquote>
+              </div>
+
               {/* <p>
                 A liberdade financeira significa coisas diferentes para pessoas
                 diferentes. Alguns planeiam alcançar um conforto financeiro
@@ -165,7 +164,7 @@ const Home = () => {
         {" "}
         <Row>
           <h2 className="heading heading-primary">Ofertas para ti</h2>
-          <Col md={4} className="offset-md-2">
+          <Col lg={4} className="offset-lg-2">
             <div className="card">
               <img
                 className="card-img-top"
@@ -189,7 +188,7 @@ const Home = () => {
               </div>
             </div>
           </Col>
-          <Col md={4}>
+          <Col lg={4}>
             {" "}
             <div className="card">
               <img
