@@ -8,7 +8,7 @@ const BlogList = () => {
     <Container className="py-100">
       <Row>
         <h2 className="heading heading-primary">Posts em Destaque</h2>
-        <Col>
+        <Col lg={8} className="mx-auto">
           {data.map((post, index) => (
             <Link
               to={`/blog/${post.postUrl}`}

@@ -324,15 +324,16 @@ ul {
 
 .blog-link {
   display: flex;
+  justify-content: space-between;
   color: black;
   border-radius: 10px;
-  background-color: #ff90e7;
+  background-color: #e6d2f7;
   padding: 20px;
 }
 
 .blog-link:hover {
   transform: translate(-0.25rem, -0.25rem);
-  box-shadow: 0.25rem 0.25rem 0rem rgb(250, 114, 104);
+  box-shadow: 0.25rem 0.25rem 0rem #ff90e7;
 }
 
 .blog-link p {
