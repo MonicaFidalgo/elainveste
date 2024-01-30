@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import monica from "../../assets/monica-fidalgo.png";
+import elainveste from "../../assets/ela investe.svg";
 import inflation from "../../assets/inflation.svg";
 import planning from "../../assets/calendar.svg";
 import invest from "../../assets/income.svg";
@@ -10,7 +11,7 @@ import orçamentomensal from "../../assets/el-investe-orcamento-mensal.png";
 const Home = () => {
   return (
     <main>
-      <div className="bg-1">
+      <div>
         <Container className="py-100 pt-sm-150">
           <Row>
             <Col lg={5}>
@@ -23,7 +24,9 @@ const Home = () => {
                 objetivos.
               </p>
             </Col>
-            <Col lg={7}>{/* https://storyset.com/*/}</Col>
+            <Col lg={7}>
+              <img src={elainveste} alt="planeamento" />
+            </Col>
           </Row>
         </Container>
       </div>

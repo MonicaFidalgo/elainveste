@@ -28,21 +28,24 @@ const NavBarComponent = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link
+            {/* <Nav.Link
               as={Link}
               to="/produtos"
               onClick={() => setExpanded(false)}
             >
               Produtos
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={Link} to="/livros" onClick={() => setExpanded(false)}>
               Livros
             </Nav.Link>
             <Nav.Link as={Link} to="/blog" onClick={() => setExpanded(false)}>
               Blog
             </Nav.Link>
-            <Nav.Link as={Link} to="https://www.tiktok.com/@elainveste.oficial">
-              <i className="fa-brands fa-tiktok"></i>
+            <Nav.Link
+              as={Link}
+              to="https://www.linkedin.com/company/elainveste/"
+            >
+              <i className="fa-brands fa-linkedin-in"></i>
             </Nav.Link>
             <Nav.Link
               as={Link}
