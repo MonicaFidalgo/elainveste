@@ -15,7 +15,7 @@ import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
-    <div className="App gradient">
+    <div>
       <Router>
         <header>
           <NavBarComponent />

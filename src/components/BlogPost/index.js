@@ -19,7 +19,7 @@ export default function SinglePage() {
           <Col>
             {article ? (
               <>
-                <h2 className="heading heading-primary">{article.title}</h2>
+                <h2 className="heading">{article.title}</h2>
                 <div>{parse(article.content)}</div>
               </>
             ) : (

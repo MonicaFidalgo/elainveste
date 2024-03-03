@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import monica from "../../assets/monica-fidalgo.png";
-import elainveste from "../../assets/ela investe.svg";
+import monica from "../../assets/elainveste-monica-fidalgo.png";
+import elainveste from "../../assets/ela-investe-hero.svg";
 import inflation from "../../assets/inflation.svg";
-import planning from "../../assets/calendar.svg";
+import planning from "../../assets/financingplan.svg";
 import invest from "../../assets/income.svg";
 import calculadorafire from "../../assets/elainveste-firenumber.png";
 import orçamentomensal from "../../assets/el-investe-orcamento-mensal.png";
@@ -11,97 +11,28 @@ import orçamentomensal from "../../assets/el-investe-orcamento-mensal.png";
 const Home = () => {
   return (
     <main>
-      <div>
-        <Container className="py-100 pt-sm-150">
-          <Row>
-            <Col lg={5}>
-              <h1 className="title mb-3">Ela Investe</h1>
-              <h2>Conquista a liberdade financeira com dicas valiosas</h2>
-              <p>
-                Aprende a investir de forma inteligente e alcança a tão sonhada
-                independência financeira. Descobre as ferramentas e recursos que
-                te vão ajudar a organizar tuas finanças e alcançar os teus
-                objetivos.
-              </p>
-            </Col>
-            <Col lg={7}>
-              <img src={elainveste} alt="planeamento" />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="bg-2">
-        <Container className="py-100 ">
-          {" "}
-          <Row className="text-center">
-            <Col>
-              <h2 className="heading heading-primary ">
-                Porque devo começar a investir?
-              </h2>
-            </Col>
-          </Row>
-          <Row className="mt-5">
-            <Col lg={4}>
-              <div>
-                <div className="icon-wrapper">
-                  <img src={inflation} alt="inflação" />
-                </div>
-                <h4>Para reduzir o impacto da inflação</h4>
-                <p>
-                  Dados históricos mostram que diversos investimentos tendem a
-                  crescer mais rápido do que a inflação. O poder de compra do
-                  dinheiro em contas bancárias é progressivamente reduzido pela
-                  inflação, geralmente superior às taxas de juros de contas
-                  poupança.
-                </p>
-              </div>
-            </Col>
-            <Col lg={4}>
-              <div>
-                <div className="icon-wrapper">
-                  <img src={planning} alt="planeamento" />
-                </div>
-                <h4>Planeamento financeiro e reforma</h4>
-                <p>
-                  Investir é uma ferramenta valiosa no planejamento financeiro
-                  futuro. Estudos indicam adotar uma estratégia de investimento
-                  a longo prazo, é possível lidar de maneira mais eficaz com as
-                  flutuações e instabilidades momentâneas que ocorrem no mercado
-                  financeiro a curto prazo.
-                </p>
-              </div>
-            </Col>
-            <Col lg={4}>
-              <div>
-                <div className="icon-wrapper">
-                  <img src={invest} alt="investir" />
-                </div>
-                <h4>Criar uma renda passiva</h4>
-                <p>
-                  Alguns tipos de investimentos geram retornos regulares, como
-                  dividendos de ações. Os investidores podem optar por
-                  reinvestir esses ganhos ou utilizá-los para complementar seu
-                  estilo de vida atual.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <Container className="bg-1 mt-70">
+        <Row>
+          <Col lg={5}>
+            <h1 className="banner-title mb-3">
+              🌱 Jornada para a Liberdade Financeira
+            </h1>
+            <h2 className="banner-subtitle">
+              Aprende a investir de forma inteligente e alcança a tão sonhada
+              independência financeira. Descobre as ferramentas e recursos que
+              te vão ajudar a organizar tuas finanças e alcançar os teus
+              objetivos.
+            </h2>
+          </Col>
+          <Col lg={7}>
+            <img src={elainveste} alt="planeamento" />
+          </Col>
+        </Row>
+      </Container>
       <Container className="py-100 ">
         <Row>
-          <h2 className="heading heading-primary text-center">Quem sou</h2>
-          <Col lg={6} className="text-center mb-4">
-            <img
-              src={monica}
-              alt="Mónica Fidalgo"
-              width="100%"
-              className="rounded-circle"
-            />
-            {/* https://storyset.com/*/}
-          </Col>
+          <h2 className="heading">👩🏽‍💻 Conhece a minha história.</h2>
           <Col lg={6}>
-            <h2>Mónica Fidalgo</h2>
             <p>
               Olá, eu sou a Mónica! Tenho 35 anos e comecei a investir há 3
               anos. Tenho o sonho de alcançar a liberdade financeira para me
@@ -118,47 +49,95 @@ const Home = () => {
               começa a investir em ti na tua independência financeira!
             </p>
           </Col>
+          <Col lg={6} className="text-center mb-4">
+            <img src={monica} alt="Mónica Fidalgo" width="100%" />
+            {/* https://storyset.com/*/}
+          </Col>
         </Row>
       </Container>
+      <div className="bg-2">
+        <Container className="py-100 ">
+          <Row>
+            <Col>
+              <h2 className="heading ">
+                💡 Porque é que deves começar a investir?
+              </h2>
+            </Col>
+          </Row>
+          <Row className="mt-5">
+            <Col lg={6}>
+              <div>
+                <div className="icon-wrapper">
+                  <img src={inflation} alt="inflação" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <h4 className="heading-secondary">
+                Para reduzir o impacto da inflação
+              </h4>
+              <p>
+                Dados históricos mostram que diversos investimentos tendem a
+                crescer mais rápido do que a inflação. O poder de compra do
+                dinheiro em contas bancárias é progressivamente reduzido pela
+                inflação, geralmente superior às taxas de juros de contas
+                poupança.
+              </p>
+            </Col>
+          </Row>
+          <Row className="mt-5">
+            <Col lg={6}>
+              <div>
+                <h4 className="heading-secondary">
+                  Planeamento financeiro e reforma
+                </h4>
+                <p>
+                  Investir é uma ferramenta valiosa no planejamento financeiro
+                  futuro. Estudos indicam adotar uma estratégia de investimento
+                  a longo prazo, é possível lidar de maneira mais eficaz com as
+                  flutuações e instabilidades momentâneas que ocorrem no mercado
+                  financeiro a curto prazo.
+                </p>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className="icon-wrapper">
+                <img src={planning} alt="planeamento" />
+              </div>
+            </Col>
+          </Row>
+          <Row className="mt-5">
+            <Col lg={6}>
+              <div>
+                <div className="icon-wrapper">
+                  <img src={invest} alt="investir" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <h4 className="heading-secondary">Criar uma renda passiva</h4>
+              <p>
+                Alguns tipos de investimentos geram retornos regulares, como
+                dividendos de ações. Os investidores podem optar por reinvestir
+                esses ganhos ou utilizá-los para complementar seu estilo de vida
+                atual.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
       <div className="wave-double">
-        <Container className="py-100 text-center">
+        <Container className="py-100 text-center quote-card">
           <Row>
             <Col md={10} className="offset-md-1">
-              <div className="quote-card">
+              <div>
                 <h3>
                   "As pessoas não decidem o seu futuro, decidem os seus hábitos
                   e os seus hábitos decidem o seu futuro."
                 </h3>
                 <blockquote>― F. M. Alexander</blockquote>
               </div>
-
-              {/* <p>
-                A liberdade financeira significa coisas diferentes para pessoas
-                diferentes. Alguns planeiam alcançar um conforto financeiro
-                suficiente para lidar com emergências de curto prazo ou para
-                satisfazer metas de estilo de vida, enquanto outros sonham com a
-                reforma antecipada e um futuro sem complicações. Com um
-                planeamento cuidadoso, é possível encontrar uma resposta para a
-                pergunta: como alcançar a independência financeira?
-              </p>
-              <p>
-                O <span className="highlighted">movimento FIRE</span> (Financial
-                Independence, Retire Early) é um movimento que busca atingir a
-                independência financeira e reforma antecipada. O objetivo do
-                FIRE é acumular ativos financeiros suficientes para ter a opção
-                de se aposentar muito antes da idade convencional de
-                aposentadoria.
-              </p>
-              <p>
-                O <span className="highlighted">valor FIRE</span> refere-se ao
-                valor de ativos financeiros necessário para alcançar a
-                independência financeira. Este valor é calculado com base nas
-                despesas anuais da pessoa, na taxa de retorno esperada dos
-                investimentos e na taxa de inflação.
-              </p>
-              <a href="/" className="button button-primary">
-                Como calculo o meu FIRE?
-              </a> */}
             </Col>
           </Row>
         </Container>
@@ -166,7 +145,7 @@ const Home = () => {
       <Container className="py-100">
         {" "}
         <Row>
-          <h2 className="heading heading-primary">Ofertas para ti</h2>
+          <h2 className="heading">💰 Inicia a tua Jornada de Investimentos</h2>
           <Col lg={4} className="offset-lg-2">
             <div className="card">
               <img

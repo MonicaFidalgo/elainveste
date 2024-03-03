@@ -12,9 +12,7 @@ const Books = () => {
       <div>
         <Container className="py-100">
           <Row className="text-center">
-            <h2 className="heading heading-primary">
-              O que estou a adorar ler
-            </h2>
+            <h2 className="heading ">O que estou a adorar ler</h2>
           </Row>
           <Row>
             <Col lg={8} className="offset-lg-2">
@@ -50,9 +48,7 @@ const Books = () => {
       </div>
       <Container className="py-100">
         <Row className="text-center">
-          <h2 className="heading heading-primary">
-            Livros que vão mudar a tua vida
-          </h2>
+          <h2 className="heading ">Livros que vão mudar a tua vida</h2>
         </Row>
         <Row>
           <Col lg={5} className="offset-lg-1">
