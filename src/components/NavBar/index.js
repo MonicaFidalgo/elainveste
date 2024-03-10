@@ -44,12 +44,14 @@ const NavBarComponent = () => {
             <Nav.Link
               as={Link}
               to="https://www.linkedin.com/company/elainveste/"
+              target="_blank"
             >
               <i className="fa-brands fa-linkedin-in"></i>
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to="https://www.instagram.com/elainveste.oficial/"
+              to="https://www.instagram.com/elainveste.pt/"
+              target="_blank"
             >
               <i className="fa-brands fa-instagram"></i>
             </Nav.Link>
