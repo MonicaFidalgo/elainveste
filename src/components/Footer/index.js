@@ -9,7 +9,7 @@ const Footer = () => {
       <Row>
         <label className="heading-label mb-4">Junta-te a mim</label>
         <h2 className="heading"> 💬 Fica a par de toda a informação</h2>
-        <Col lg="4">
+        <Col>
           <a
             href="mailto:elainveste.tuinvestes@gmail.com"
             className="footer-mail-link"

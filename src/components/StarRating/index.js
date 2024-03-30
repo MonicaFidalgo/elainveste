@@ -6,10 +6,7 @@ const StarRating = ({ rating }) => {
   return (
     <div>
       {stars.map((star) => (
-        <span
-          key={star}
-          className={`fa fa-star ${star <= rating ? "checked" : ""}`}
-        ></span>
+        <span key={star}>⭐️</span>
       ))}
     </div>
   );

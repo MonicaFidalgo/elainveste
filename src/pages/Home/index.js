@@ -34,9 +34,14 @@ const Home = () => {
       </Container>
       <Container className="bg-2 mb-70">
         <Row>
-          <label className="heading-label mb-4">Quem sou eu</label>
-          <h2 className="heading">👩🏽‍💻 Conhece a minha história.</h2>
+          <Col>
+            {" "}
+            <label className="heading-label mb-4">Quem sou eu</label>
+          </Col>
+        </Row>
+        <Row>
           <Col lg={6}>
+            <h2 className="heading">👩🏽‍💻 Conhece a minha história.</h2>
             <p>
               Olá, eu sou a Mónica! Tenho 35 anos e comecei a investir há 3
               anos. Tenho o sonho de alcançar a liberdade financeira para me

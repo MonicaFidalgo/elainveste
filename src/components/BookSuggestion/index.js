@@ -12,19 +12,24 @@ const BookSuggestion = ({
 }) => {
   return (
     <div className="book-suggestion">
-      <img src={image} alt={alt} />
-      <h3 className="pt-4">{title}</h3>
-      <h4>de {subtitle}</h4>
-      <StarRating rating={rating} />
-      <p className="mt-2">{description}</p>
-      <a
-        className="button button-secondary"
-        href={url}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Encomendar
-      </a>
+      <div className="card-img">
+        <img src={image} alt={alt} width="100%" />
+      </div>
+
+      <div className="card-body">
+        <h3 className="heading-secondary">{title}</h3>
+        <h4>de {subtitle}</h4>
+        <StarRating rating={rating} />
+        <p className="mt-2">{description}</p>
+        <a
+          className="button button-primary"
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Quero este livro
+        </a>
+      </div>
     </div>
   );
 };

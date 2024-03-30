@@ -161,7 +161,7 @@ header {
   font-size: 32px;
   line-height: 42px;
   font-weight: 700;
-  margin-bottom: 58px;
+  margin-bottom: 24px;
 }
 
 .heading-secondary {
@@ -236,6 +236,8 @@ header {
   background-color: var(--color-tertiary);
   color: var(--color-primary);
   padding: 30px;
+  margin-bottom: 70px;
+  border-radius: 8px;
 }
 
 @media (min-width: 992px) {
@@ -314,30 +316,18 @@ header {
   }
 }
 
-.book-suggestion img {
-  max-width: 300px;
-  object-fit: contain;
-}
-
 .book-suggestion {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: white;
+  border-radius: 8px;
   margin-bottom: 60px;
+  box-shadow: 0px 34px 64px 0px rgba(55, 19, 115, 0.3);
 }
 
 .book-suggestion h4 {
   font-weight: 300;
   font-size: 18px;
-}
-
-@media (min-width: 992px) {
-  .book-suggestion {
-    align-items: baseline;
-  }
-  .book-suggestion img {
-    max-height: 400px;
-  }
 }
 
 @media (max-width: 992px) {
