@@ -35,6 +35,9 @@ const NavBarComponent = () => {
             >
               Produtos
             </Nav.Link> */}
+            <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
+              Home
+            </Nav.Link>
             <Nav.Link as={Link} to="/livros" onClick={() => setExpanded(false)}>
               Livros
             </Nav.Link>

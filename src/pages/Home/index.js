@@ -1,19 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import monica from "../../assets/sobre-mim.svg";
+import monica from "../../assets/about-me.svg";
 import elainveste from "../../assets/ela-investe-hero.svg";
 import inflation from "../../assets/inflation.svg";
 import planning from "../../assets/financingplan.svg";
 import invest from "../../assets/income.svg";
-import calculadorafire from "../../assets/elainveste-firenumber.png";
-import orçamentomensal from "../../assets/el-investe-orcamento-mensal.png";
+import calculadorafire from "../../assets/imagem-produto.png";
+import orçamentomensal from "../../assets/produto-despesas-mensais.png";
 
 const Home = () => {
   return (
     <main>
-      <Container className="bg-1 mb-70">
+      <Container className="bg-3 mb-70">
         <Row>
-          <Col lg={5}>
+          <Col lg={6}>
             <label className="heading-label mb-4">
               Descobre o poder dos investimentos
             </label>
@@ -27,8 +27,8 @@ const Home = () => {
               objetivos.
             </h2>
           </Col>
-          <Col lg={7}>
-            <img src={elainveste} alt="planeamento" />
+          <Col lg={6}>
+            <img src={elainveste} alt="planeamento" width="100%" />
           </Col>
         </Row>
       </Container>
@@ -60,7 +60,7 @@ const Home = () => {
         </Row>
       </Container>
 
-      <Container className="bg-4">
+      <Container className="bg-4 mb-70">
         <Row>
           <Col>
             <label className="heading-label mb-4">
@@ -71,7 +71,7 @@ const Home = () => {
             </h2>
           </Col>
         </Row>
-        <Row className="mt-5">
+        <Row className="align-items-center mt-5">
           <Col lg={6}>
             <div>
               <div className="icon-wrapper">
@@ -92,8 +92,13 @@ const Home = () => {
             </p>
           </Col>
         </Row>
-        <Row className="mt-5">
+        <Row className="align-items-center mt-5">
           <Col lg={6}>
+            <div className="icon-wrapper">
+              <img src={planning} alt="planeamento" />
+            </div>
+          </Col>
+          <Col lg={6} className="order-lg-first">
             <div>
               <h4 className="heading-secondary">
                 Planeamento financeiro e reforma
@@ -107,13 +112,8 @@ const Home = () => {
               </p>
             </div>
           </Col>
-          <Col lg={6}>
-            <div className="icon-wrapper">
-              <img src={planning} alt="planeamento" />
-            </div>
-          </Col>
         </Row>
-        <Row className="mt-5">
+        <Row className="align-items-center mt-5">
           <Col lg={6}>
             <div>
               <div className="icon-wrapper">
@@ -139,24 +139,27 @@ const Home = () => {
           <h2 className="heading">💰 Inicia a tua Jornada de Investimentos</h2>
           <Col lg={6}>
             <div className="card">
-              <img
-                className="card-img-top"
-                src={calculadorafire}
-                alt="Produto 
+              <div className="card-img card-img-1">
+                <img
+                  className="card-img-top"
+                  src={calculadorafire}
+                  alt="Produto 
                 Calculadora Fire Ela Investe"
-              />
+                />
+              </div>
               <div className="card-body">
+                <h4 className="heading-secondary">Calculadora do FIRE</h4>
                 <p className="card-text">
                   Calcula o teu FIRE number e o valor que tens de investir para
                   alcançares a tua liberdade financeira
                 </p>
                 <a
-                  className="button button-secondary"
+                  className="button button-primary"
                   href="https://elainveste.gumroad.com/l/calculadora-fire"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Eu quero
+                  Download Grátis
                 </a>
               </div>
             </div>
@@ -164,24 +167,29 @@ const Home = () => {
           <Col lg={6}>
             {" "}
             <div className="card">
-              <img
-                className="card-img-top"
-                src={orçamentomensal}
-                alt="Produto 
+              <div className="card-img card-img-2">
+                <img
+                  className="card-img-top"
+                  src={orçamentomensal}
+                  alt="Produto 
                 Orçamento Mensal Ela Investe"
-              />
+                />
+              </div>
               <div className="card-body">
+                <h4 className="heading-secondary">
+                  Planner de Despesas Manuais
+                </h4>
                 <p className="card-text">
                   Planeia as tuas contas e vê como podes poupar com o Orçamento
                   Mensal
                 </p>
                 <a
                   href="https://elainveste.gumroad.com/l/orcamento-mensal"
-                  className="button button-secondary"
+                  className="button button-primary"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Eu quero
+                  Download Grátis
                 </a>
               </div>
             </div>
