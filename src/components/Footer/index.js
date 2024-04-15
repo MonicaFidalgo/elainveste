@@ -9,17 +9,8 @@ const Footer = () => {
       <Row>
         <label className="heading-label mb-4">Junta-te a mim</label>
         <h2 className="heading"> 💬 Fica a par de toda a informação</h2>
-        <Col>
-          <a
-            href="mailto:elainveste.tuinvestes@gmail.com"
-            className="footer-mail-link"
-            rel="noreferrer"
-          >
-            <h3>elainveste.tuinvestes@gmail.com</h3>
-          </a>
-        </Col>
       </Row>
-      <Row className="mt-5">
+      <Row>
         <p>Segue-me nas redes sociais</p>
         <Col lg="4" className="footer-icons">
           <a
@@ -38,10 +29,21 @@ const Footer = () => {
           </a>
         </Col>
       </Row>
+
       <Row>
         <Col className="footer-copywright">
           <p>Developed by Mónica Fidalgo</p>
           <p>Copyright © {year} Ela Investe</p>
+          <p>
+            <a
+              href="mailto:elainveste.tuinvestes@gmail.com"
+              className="footer-mail-link"
+              rel="noreferrer"
+            >
+              <i className="fa fa-envelope"></i>
+              <span>elainveste.tuinvestes@gmail.com</span>
+            </a>
+          </p>
         </Col>
       </Row>
     </Container>

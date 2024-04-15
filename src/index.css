@@ -388,6 +388,7 @@ header {
   border-radius: 10px;
   background-color: #e6d2f7;
   padding: 20px;
+  transition: all 0.15s ease-in-out;
 }
 
 .blog-link:hover {
