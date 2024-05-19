@@ -41,9 +41,9 @@ const NavBarComponent = () => {
             <Nav.Link as={Link} to="/livros" onClick={() => setExpanded(false)}>
               Livros
             </Nav.Link>
-            <Nav.Link as={Link} to="/blog" onClick={() => setExpanded(false)}>
+            {/* <Nav.Link as={Link} to="/blog" onClick={() => setExpanded(false)}>
               Blog
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               as={Link}
               to="https://www.linkedin.com/company/elainveste/"

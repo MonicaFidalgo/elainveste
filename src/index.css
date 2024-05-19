@@ -257,6 +257,7 @@ header {
 
 .footer-copywright {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-weight: 300;
   font-size: 14px;

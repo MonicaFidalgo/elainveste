@@ -9,9 +9,16 @@ const Footer = () => {
       <Row>
         <label className="heading-label mb-4">Junta-te a mim</label>
         <h2 className="heading"> 💬 Fica a par de toda a informação</h2>
+        <iframe
+          title="ela investe substack"
+          src="https://elainveste.substack.com/embed"
+          width="480"
+          height="320"
+          frameborder="0"
+        ></iframe>
       </Row>
-      <Row>
-        <p>Segue-me nas redes sociais</p>
+      <Row className="mt-4">
+        <h3>Segue-me nas redes sociais</h3>
         <Col lg="4" className="footer-icons">
           <a
             href="https://www.linkedin.com/company/elainveste/"
